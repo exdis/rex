@@ -197,6 +197,70 @@ xkb_symbols "fast-numpad" {
     };
 };
 
+partial alphanumeric_keys
+xkb_symbols "fast-numpad-shifted" {
+    key <AD01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [q, Q, q, Q, KP_1, KP_1, KP_1, KP_1],
+        symbols[Group2] = [Cyrillic_shorti, Cyrillic_SHORTI, Cyrillic_shorti, Cyrillic_SHORTI, KP_1, KP_1, KP_1, KP_1]
+    };
+    key <AD02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [w, W, w, W, KP_2, KP_2, KP_2, KP_2],
+        symbols[Group2] = [Cyrillic_tse, Cyrillic_TSE, Cyrillic_tse, Cyrillic_TSE, KP_2, KP_2, KP_2, KP_2]
+    };
+    key <AD03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [e, E, e, E, KP_3, KP_3, KP_3, KP_3],
+        symbols[Group2] = [Cyrillic_u, Cyrillic_U, Cyrillic_u, Cyrillic_U, KP_3, KP_3, KP_3, KP_3]
+    };
+    key <AD04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [r, R, r, R, KP_4, KP_4, KP_4, KP_4],
+        symbols[Group2] = [Cyrillic_ka, Cyrillic_KA, Cyrillic_ka, Cyrillic_KA, KP_4, KP_4, KP_4, KP_4]
+    };
+    key <AC01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [a, A, a, A, KP_5, KP_5, KP_5, KP_5],
+        symbols[Group2] = [Cyrillic_ef, Cyrillic_EF, Cyrillic_ef, Cyrillic_EF, KP_5, KP_5, KP_5, KP_5]
+    };
+    key <AC02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [s, S, s, S, KP_6, KP_6, KP_6, KP_6],
+        symbols[Group2] = [Cyrillic_yeru, Cyrillic_YERU, Cyrillic_yeru, Cyrillic_YERU, KP_6, KP_6, KP_6, KP_6]
+    };
+    key <AC03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [d, D, d, D, KP_7, KP_7, KP_7, KP_7],
+        symbols[Group2] = [Cyrillic_ve, Cyrillic_VE, Cyrillic_ve, Cyrillic_VE, KP_7, KP_7, KP_7, KP_7]
+    };
+    key <AC04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [f, F, f, F, KP_8, KP_8, KP_8, KP_8],
+        symbols[Group2] = [Cyrillic_a, Cyrillic_A, Cyrillic_a, Cyrillic_A, KP_8, KP_8, KP_8, KP_8]
+    };
+    key <AB01> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [z, Z, z, Z, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract ],
+        symbols[Group2] = [Cyrillic_ya, Cyrillic_YA, Cyrillic_ya, Cyrillic_YA, KP_Subtract, KP_Subtract, KP_Subtract, KP_Subtract]
+    };
+    key <AB02> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [x, X, x, X, KP_Equal, KP_Equal, KP_Equal, KP_Equal],
+        symbols[Group2] = [Cyrillic_che, Cyrillic_CHE, Cyrillic_che, Cyrillic_CHE, KP_Equal, KP_Equal, KP_Equal, KP_Equal]
+    };
+    key <AB03> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [c, C, c, C, KP_9, KP_9, KP_9, KP_9],
+        symbols[Group2] = [Cyrillic_es, Cyrillic_ES, Cyrillic_es, Cyrillic_ES, KP_9, KP_9, KP_9, KP_9]
+    };
+    key <AB04> {
+        type= "EIGHT_LEVEL",
+        symbols[Group1] = [v, V, v, V, KP_0, KP_0, KP_0, KP_0],
+        symbols[Group2] = [Cyrillic_m, Cyrillic_M, Cyrillic_m, Cyrillic_M, KP_0, KP_0, KP_0, KP_0]
+    };
+};
+
 partial modifier_keys
 xkb_symbols "lvl3-shift-shift" {
     key <LFSH> {
